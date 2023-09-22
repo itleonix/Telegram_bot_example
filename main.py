@@ -5,8 +5,8 @@ import sqlite3                                                                  
 import requests                                                                                     #Подключение библиотеки для работы со сторонними ресурсами
 import json                                                                                         #Подключение библиотеки для работы с json объектами
 
-TestBot = telebot.TeleBot('6486839867:AAE8bjy9KCS5zB1bHKvoozZKRp8ty25R5k0')                         #Указание токена бота для работы с ним (лучше вынести в отдельный файл)
-API_weather = '22035036fc6e7760b0a8654573dec148'                                                    #Указание токена стороннего ресурса (лучше вынести в отдельный файл)
+TestBot = telebot.TeleBot('TelegramApiToken')                         #Указание токена бота для работы с ним (лучше вынести в отдельный файл)
+API_weather = 'WeatherToken'                                                    #Указание токена стороннего ресурса (лучше вынести в отдельный файл)
 name_home = ''
 adress_home = ''
 order_time= ''
